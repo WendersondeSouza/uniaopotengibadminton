@@ -1,0 +1,96 @@
+.sessao-noticias {
+    font-size: 18px;
+    color: #333;
+}
+/* banner do topo */
+.top-banner {
+    background-image: url(../img/bg-noticias-darkened.jpg);
+}
+
+.top-banner-atletas {
+    background-image: url(../img/banner-atletas.jpg);
+}
+
+.top-banner,
+.top-banner-atletas {
+    color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px;
+}
+
+/* header da noticica */
+.titulo-da-noticia {
+    margin-bottom: 40px;
+}
+
+.titulo-da-noticia h2 {
+    color: #333;
+    font-size: 2.75rem;
+}
+
+.titulo-da-noticia h3 {
+    color: #767676;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.autor {
+    font-style: normal;
+    line-height: inherit;
+    font-weight: 400;
+    color: #333;
+    font-size: 1rem;
+}
+
+.autor a {
+    font-style: normal;
+    line-height: inherit;
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.exposicao-img-noticia {
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 40px;
+}
+
+.img-exposicao {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-exposicao img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-exposicao figcaption {
+    color: #333;
+    font-weight: 500;
+    font-size: 0.875rem;
+    background: #d1d1d1;
+    padding: .25rem .5rem;
+}
+
+/* texto da noticia */
+
+.texto-da-noticia {
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+}
+
+.texto-da-noticia p {
+    width: 100%;
+}

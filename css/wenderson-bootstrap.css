@@ -1,0 +1,200 @@
+/* testes com bordas */
+.teste-1 {
+    border: 2px solid red;
+}
+
+.teste-2 {
+    border: 2px solid blue;
+}
+
+.teste-3 {
+    border: 2px solid black;
+}
+
+.teste-4 {
+    border: 2px solid green;
+}
+/* flexbox */
+
+/* alinha oitem ao meio do conteiner pai */
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* displays */
+.dflex {
+    display: flex;
+}
+
+.dinline {
+    display: inline;
+}
+
+/* alinhamento de itens */
+
+.alignitem-c {
+    align-items: center;
+}
+
+.alignitem-fend{
+    align-items: flex-end;
+}
+
+.alignitem-fstart {
+    align-items: flex-start;
+}
+
+.alignitem-start {
+    align-items: start;
+}
+
+.alignitem-end {
+    align-items: end;
+}
+
+/* justify contents */
+.justify-content-c {
+    justify-content: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+/* flex directions */
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+/* width and height */
+
+.w100 {
+    width: 100%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w20 {
+    width: 20%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h90 {
+    height: 90%;
+}
+
+.h80 {
+    height: 80%;
+}
+
+.h50 {
+    height: 50%;
+}
+
+.h40 {
+    height: 40%;
+}
+
+.h30 {
+    height: 30%;
+}
+
+.h20 {
+    height: 20%;
+}
+
+.h10 {
+    height: 10%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+/* positions */
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+/* text align */
+
+.txt-align-c {
+    text-align: center;
+}
+
+.txt-align-l {
+    text-align: left;
+}
+
+.txt-align-r {
+    text-align: right;
+}
+
+.txt-align-j {
+    text-align: justify;
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
+/* margin */
+.margin-low {
+    margin: 5px;
+}
+
+.margin-medium {
+    margin: 10px;
+}
+
+.margin-high {    
+    margin: 20px;
+}
+
+/* .ocultar {
+    display: none;
+} */

@@ -1,0 +1,44 @@
+main section {
+    justify-content: flex-start;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.categoria {
+    position: relative;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.atletas-container {
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-text {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(90deg, #f6ed22, #1ec632);
+}
+
+.atletas-box {
+    object-fit: cover;
+    object-position: center;
+    background-color: #ffffff00;
+}
+
+.atletas-box img {
+    object-fit: cover;
+    object-position: center;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
