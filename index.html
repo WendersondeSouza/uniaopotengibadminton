@@ -17,7 +17,7 @@
         ITS NOT THE BETTER WAY
         SO ITS AN "JEITINHO BRASILEIRO"
     -->
-    <header class="meio flex-direction-column w100 h-auto position-relative">
+    <header class="meio flex-direction-column w100 h-auto position-relative header-principal">
         <div class="w100 h-auto meio position-relative h-logo-conteiner">
             <div id="princial-logo" class="meio conteiner">
                 <a href="./index.html" target="_self" class="w100 h100"><img src="./img/uniao-bd-logo.png"
@@ -30,7 +30,7 @@
             <nav class="w100 meio nav-menu">
                 <ul class="flex-direction-row dflex w-auto h-auto ">
                     <li class="dinline rajdhani-semibold"><a href="https://www.instagram.com/u.p.badminton/">Instagram</a></li>
-                    <li class="dinline rajdhani-semibold"><a href="#noticias">Notícias</a></li>
+                    <li class="dinline rajdhani-semibold"><a href="#feed-noticias">Notícias</a></li>
                 </ul>
             </nav>
         </div>
@@ -169,7 +169,7 @@
 
     <!-- feed de noticias -->
     <div class="col-10 flex-direction-row alignitem-start dflex meio position-relative h-auto feed-noticias">
-        <main class="col-8 meio flex-direction-column position-relative h-auto">
+        <main class="col-8 meio flex-direction-column position-relative h-auto" id="feed-noticias">
             <div class="feed-noticias-body flex-direction-column position-relative">
                 <div class="feed-noticias-item col-12 h100 dflex position-relative  flex-direction-row alignitem-start feed-line">
                     <a href="./noticias/atletas-do-arec-visitam-treinamento-da-uniao-potengi-badminton.html" class="col-12 h100 dflex position-relative alignitem-start row feed-link">
@@ -261,16 +261,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script>
-        const config = {
-            type: 'carousel',
-            gap: 0,
-            perView: 1,
-            autoplay: 4000,
-            hoverpause: 0
-        }
-        new Glide('.glide', config).mount()
-    </script>
+    <script src="./javascript/carousel.js"></script>
 </body>
 
 </html>
